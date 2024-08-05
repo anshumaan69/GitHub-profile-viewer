@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background:linear-gradient(135deg,#45EBFF,#f9f9f9);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input{
+    flex: 1;
+    border:none;
+    outline: none;
+    background: white;
+    padding: 10px;
+    font-weight: 14px;
+    font-siz;
+    border-radius: 40px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 14px 50px;
+    background: #45d4ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    
+}
+<input type="text" id="username" placeholder="Enter GitHub username">
+
